@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "Rx3U38hWvMZQpY9yeVawc5Efo+g/3EVyZ3LSIa6y9L4=",
+  "Source": "GameBinary",
+  "BasePath": "_content/GameBinary",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GameBinary\\wwwroot",
+      "Source": "GameBinary",
+      "ContentRoot": "D:\\Projects\\ASP\\GameBinary\\GameBinary\\wwwroot\\",
+      "BasePath": "_content/GameBinary",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

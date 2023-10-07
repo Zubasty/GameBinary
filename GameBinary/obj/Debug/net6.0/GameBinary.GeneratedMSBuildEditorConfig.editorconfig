@@ -1,0 +1,29 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GameBinary
+build_property.RootNamespace = GameBinary
+build_property.ProjectDir = D:\Projects\ASP\GameBinary\GameBinary\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Projects\ASP\GameBinary\GameBinary
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Projects/ASP/GameBinary/GameBinary/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/ASP/GameBinary/GameBinary/Pages/YouNoob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWW91Tm9vYi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/ASP/GameBinary/GameBinary/Pages/YouWin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWW91V2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

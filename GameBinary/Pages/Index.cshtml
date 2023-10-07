@@ -1,0 +1,28 @@
+﻿@page 
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model RazorPagesApp.Pages.IndexModel
+ 
+<h2>@Model.Message</h2>
+
+@foreach(var tr in Model.Tryes)
+{
+    <h3>@tr</h3>
+}
+<h3>@Model.CountTryes</h3>
+
+<form method="post" asp-antiforgery="true">
+    <p>
+        <label>Ваше предположение</label><br />
+        <input type="number" name="value" /> 
+    </p>
+    <input type="hidden" name="myValue" value="@Model.MyValue" />
+    @foreach (var tr in Model.Tryes)
+    {
+        <input type="hidden" name="tryes" value="@tr" />
+    }
+    <button>Проверить!</button>
+</form>
+
+<form method="get" asp-antiforgery="true">
+    <button>Сначала</button>
+</form>

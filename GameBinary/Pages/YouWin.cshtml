@@ -1,0 +1,12 @@
+﻿@page
+@model GameBinary.Pages.YouWinModel
+
+<h2>Отлично!</h2>
+@foreach (var tr in Model.Tryes)
+{
+    <h3>@tr</h3>
+}
+<h2>У тебя всё получилось! Еще разок?</h2>
+<form asp-antiforgery="true" action="Index">
+    <button>Сначала</button>
+</form>

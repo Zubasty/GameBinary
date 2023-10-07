@@ -1,0 +1,14 @@
+﻿@page
+@model GameBinary.Pages.YouNoobModel
+@{
+}
+<h2>@Model.Message</h2>
+@foreach (var tr in Model.Tryes)
+{
+    <h3>@tr</h3>
+}
+<h2>На самом деле, я загадывал @Model.MyValue</h2>
+<h2>Попробуй снова... Можешь предварительно погуглить про двоичный поиск!</h2>
+<form asp-antiforgery="true" action="Index">
+    <button>Сначала</button>
+</form>
