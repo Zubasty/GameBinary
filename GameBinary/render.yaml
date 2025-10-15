@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: guess-number
-    env: dotnet
-    buildCommand: dotnet publish -c Release -o ./publish
-    startCommand: dotnet ./bin/Debug/net6.0/GameBinary.dll
-    envVars:
-      - key: ASPNETCORE_URLS
-        value: http://0.0.0.0:10000
